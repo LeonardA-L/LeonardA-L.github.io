@@ -1,0 +1,97 @@
+body{
+	display:block;
+	padding: 0;
+	margin: 0;
+	height:100%;
+	width:100%;
+	text-align:center;
+
+	background:#F2F2F0;
+
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+
+	color:#555;
+}
+
+
+.hShadow{
+	background: -webkit-linear-gradient( #AAA , #FAF2F0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #AAA, #F2F2F0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( #AAA, #F2F2F0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #AAA , #F2F2F0); /* Standard syntax */
+
+  height:20px;
+}
+
+.meta{
+	width:50%;
+	margin:0 auto;
+
+	font-size:18pt;
+	text-align:justify;
+
+}
+
+.circle{
+	margin:30px auto;
+	display:block;
+	width: 30%;
+	min-width:600px;
+
+	border-radius:100%;
+	font-size:20px;
+	text-align:center;
+
+	overflow: hidden;
+
+	background: #FFF url('Photo.jpg') top center no-repeat;
+	background-size: auto 75%;
+}
+
+.circle:before{
+	content: "";
+	display: block;
+	padding-top: calc(100% - 35%);
+}
+.part{
+	display:block;
+	width:100%;
+	padding-bottom:15%;
+	background: #00CC99;
+}
+
+.bubbles{
+	width:100%;
+	margin:0 auto;
+}
+
+.bubble{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin-right: 10px;
+
+	background: #555;
+}
+.bubble:last{
+	margin-right: 0;
+}
+
+h1{
+	white-space: nowrap;
+	margin-top:40px;
+	padding-top:5px;
+
+	color:#555;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+a, a:hover, a:visited{
+	color:#555;
+}
