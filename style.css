@@ -93,6 +93,10 @@ body{
 	background-image: url('img/fr.png');
 }
 
+.cg{
+	background-image: url('img/cg.png');
+}
+
 h1{
 	white-space: nowrap;
 	margin-top:40px;
