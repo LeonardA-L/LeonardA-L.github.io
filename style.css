@@ -72,10 +72,17 @@ body{
 	display:inline-block;
 	margin-right: 10px;
 
-	background: #555;
+	/*background: #555;*/
+	background: no-repeat;
+	background-size: 100%;
+
 }
 .bubble:last{
 	margin-right: 0;
+}
+
+.github{
+	background-image: url('img/gh.png');
 }
 
 h1{
