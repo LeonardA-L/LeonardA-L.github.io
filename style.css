@@ -85,6 +85,14 @@ body{
 	background-image: url('img/gh.png');
 }
 
+.en{
+	background-image: url('img/en.png');
+}
+
+.fr{
+	background-image: url('img/fr.png');
+}
+
 h1{
 	white-space: nowrap;
 	margin-top:40px;
