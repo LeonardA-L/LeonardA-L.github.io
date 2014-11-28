@@ -67,22 +67,45 @@ body{
 }
 
 .bubble{
+	margin-right: 10px;
+
+	position: relative;
+}
+
+.bubble, .subbubble{
 	width:50px;
 	height:50px;
 	display:inline-block;
-	margin-right: 10px;
-
 	/*background: #555;*/
 	background: no-repeat;
 	background-size: 100%;
-
 }
 .bubble:last{
 	margin-right: 0;
 }
 
+.bubble span{
+	display: block;
+	transition-duration: 0.2s;
+	transition-property: opacity;
+	position:absolute;
+}
+
+
+.btnh{
+	opacity: 0;
+}
+.btnh:hover{
+	opacity: 1;
+}
+
+
 .github{
 	background-image: url('img/gh.png');
+}
+
+.githubh{
+	background-image: url('img/ghh.png');
 }
 
 .en{
@@ -99,6 +122,22 @@ body{
 
 .in{
 	background-image: url('img/in.png');
+}
+
+.enh{
+	background-image: url('img/enh.png');
+}
+
+.frh{
+	background-image: url('img/frh.png');
+}
+
+.cgh{
+	background-image: url('img/cgh.png');
+}
+
+.inh{
+	background-image: url('img/inh.png');
 }
 
 h1{
