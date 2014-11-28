@@ -97,6 +97,10 @@ body{
 	background-image: url('img/cg.png');
 }
 
+.in{
+	background-image: url('img/in.png');
+}
+
 h1{
 	white-space: nowrap;
 	margin-top:40px;
