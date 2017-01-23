@@ -2,6 +2,7 @@ body{
 	display:block;
 	padding: 0;
 	margin: 0;
+	padding-bottom: 50px;
 	height:100%;
 	width:100%;
 	text-align:center;
@@ -16,10 +17,10 @@ body{
 
 
 .hShadow{
-	background: -webkit-linear-gradient( #AAA , #FAF2F0); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( #AAA, #F2F2F0); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient( #AAA, #F2F2F0); /* For Firefox 3.6 to 15 */
-  background: linear-gradient( #AAA , #F2F2F0); /* Standard syntax */
+	background: -webkit-linear-gradient( rgba(70,70,70,0.5) , transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( rgba(70,70,70,0.5) , transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( rgba(70,70,70,0.5) , transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( rgba(70,70,70,0.5) , transparent); /* Standard syntax */
 
   height:20px;
   position:fixed;
