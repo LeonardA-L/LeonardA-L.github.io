@@ -113,12 +113,11 @@ body{
 	background-image: url('img/ghh.png');
 }
 
-.en{
-	background-image: url('img/en.png');
+.mail{
+	background-image: url('img/mail.png');
 }
-
-.fr{
-	background-image: url('img/fr.png');
+.mailh{
+	background-image: url('img/mailh.png');
 }
 
 .cg{
@@ -127,14 +126,6 @@ body{
 
 .in{
 	background-image: url('img/in.png');
-}
-
-.enh{
-	background-image: url('img/enh.png');
-}
-
-.frh{
-	background-image: url('img/frh.png');
 }
 
 .cgh{
@@ -164,7 +155,7 @@ a, a:hover, a:visited{
 	color:#555;
 }
 
-.circle, .meta_wrap {
+.meta_wrap {
 	display: none;
 }
 
