@@ -217,7 +217,7 @@ h4 {
 	font-weight: 300;
 }
 
-.work_wrap {
+.work_wrap, .project_wrap {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: column;
@@ -228,7 +228,7 @@ h4 {
 	-webkit-justify-content: center;
 	justify-content: center;
 }
-.work {
+.work, .project {
 	flex: 1;
 
 	display: -webkit-flex;
@@ -242,7 +242,7 @@ h4 {
 	flex-flow: row nowrap;
 }
 
-.work img {
+.work img, .project img {
 	height: 70px;
 	width: auto;
 	margin: 10px;
@@ -265,6 +265,6 @@ h3, h4 {
 
 .hr {
 	width: 20%;
-	margin: 12px auto;
+	margin: 8px auto;
 	border-top: solid 1px #CCCCCC;
 }
