@@ -2,7 +2,7 @@ body {
 	transform: scale(0.8);
 	width: 119%;
 	margin-top: -90px;
-	background: #FFF;
+	background: #FFFFFF;
 	padding: 0;
 	margin-left: -75px;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 .shadow {
-	box-shadow: 1px 1px 6px 4px #ccc;
+	box-shadow: 1px 1px 6px 4px #cccccc;
 }
 
 .circle {
@@ -54,7 +54,7 @@ body {
 }
 
 h3, h4, .techno p {
-	text-shadow: 1px 1px 1px #CCC;
+	text-shadow: 1px 1px 1px #CCCCCC;
 }
 
 .block {
