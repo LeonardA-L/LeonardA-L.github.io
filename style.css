@@ -15,6 +15,10 @@ body{
 	color:#777;
 }
 
+.main-title {
+	display: none;
+}
+
 .hShadow{
 	background: -webkit-linear-gradient( rgba(70,70,70,0.5) , transparent); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient( rgba(70,70,70,0.5) , transparent); /* For Opera 11.1 to 12.0 */
@@ -54,7 +58,9 @@ body{
 
 	overflow: hidden;
 
-	background: #FFF url('Photo.jpg') top center no-repeat;
+	background: #FFF no-repeat;
+	background-position: top center;
+	background-image: url('Photo.jpg');
 	background-size: auto 75%;
 
 }
@@ -245,4 +251,20 @@ h4 {
 
 h3, h4 {
 	text-shadow: 2px 2px 1px #CCC;
+}
+
+.dot {
+	margin-left: 6px;
+	margin-right: 3px;
+}
+
+.locale-level {
+	margin-left: 4px;
+	font-weight: 100;
+}
+
+.hr {
+	width: 20%;
+	margin: 12px auto;
+	border-top: solid 1px #CCC;
 }
