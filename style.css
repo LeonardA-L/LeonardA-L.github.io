@@ -236,7 +236,7 @@ h4 {
 	flex-direction: column;
 
 	-webkit-align-items: left;
-	align-items: left;
+	align-items: start;
 	-webkit-justify-content: center;
 	justify-content: center;
 }
