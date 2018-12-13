@@ -72,16 +72,33 @@ body{
 	display: block;
 	padding-top: calc(100% - 44%);
 }
+
+.head {
+	display: flex;
+	width: 100%;
+	height: 210px;
+}
+
 .part{
 	display:block;
 	width:100%;
-	padding-bottom:12%;
 	background: #00CC99;
+	text-align: right;
+    padding: 26px;
+}
+
+.part.photo {
+	background: #FFFFFF no-repeat;
+	background-position: top center;
+	background-image: url('Photo.jpg');
+	background-size: cover;
+	max-width: 250px;
 }
 
 .bubbles{
 	width:100%;
 	margin:0 auto;
+	margin-right: -12px;
 }
 
 .bubble{
@@ -156,11 +173,13 @@ h1{
 
 	font-weight: 400;
 	color:#333333;
+	margin: 0;
 }
 h2 {
-	font-weight: 400;
+	font-weight: 600;
 	margin-top: 30px;
 	margin-bottom: 10px;
+	color: #546275;
 }
 
 .header h1{
