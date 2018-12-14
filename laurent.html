@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>XPLOSIV Laurent ! Le G&eacute;n&eacute;rateur !</title>
+	<style type="text/css">
+		body {
+			font-family: Arial;
+		}
+		.wrap {
+			width: 60%;
+		    margin: 0 auto;
+		    font-size: 39px;
+		    margin-top: 150px;
+		    text-align: center;
+		}
+		#pitch {
+			    text-align: justify;
+		}
+		#btn {
+			display: inline-block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 300px;
+    background: #3960d4;
+    color: #fbc64b;
+    text-align: center;
+    padding: 20px;
+    transition: opacity 0.2s;
+    margin-top: 120px;
+			opacity: 1;
+			cursor: pointer;
+		}
+		#btn:hover {
+			opacity: 0.8;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>XPLOSIV Laurent ! Le G&eacute;n&eacute;rateur !</h1>
+	<div class="wrap">
+		<div id="pitch"></div>
+		<div id="btn" onclick="generatePitch()">Plus de Laurent</div>
+	</div>
+</body>
+<script type="text/javascript">
+var elem = document.getElementById('pitch');
+var whens = ["Le temps presse !", "3018.", "Défiez la peur.", "Après des siècles d'oppression,", "Après la grande guerre,", "Saisissez la grandeur !"];
+var verbs = ["Incarnez ", "Rentrez dans la peau d'", "Devenez ", "Marchez dans les pas d'", "Epousez le destin d'"];
+var whos = ["un chasseur de têtes", "Inspecteur Jack Jacked,", "Aaron Sanglant,", "un ex agent soviétique", "un espion infiltré", "un cyborg rebel"];
+var goals = ["à la recherche de la clé fantôme", "aveuglé par la vengeance", "déterminé à sauver son peuple", "élu des Dieux", "en quête de rédemption", "en quête d'une nouvelle vie", "prêt à tout pour sauver le monde"];
+var wheres = ["perdu dans le nouveau monde", "dans un Tokyo submergé", "dans un Paris post-apocalyptique", "sur les routes défoncées du Gourounda"];
+var mediums = [" dans une aventure", ", une inoubliable expérience", ", dans cette Escape Room"];
+var buzzwords = ["en Design Thinking", "en Stealth Learning", "VR", "VR", "VR", "en VR", "en Réalité Mixte", "Blockchain", "Cloud-driven", "connectée", "en Machine Learning", "disruptive", "digitale", "électrique"];
+var partnerships = ["en partenariat avec le CNC", "en partenariat avec les restaus du coeur", "financée par vos impôts", "financée avec le soutien du Centre Pompidou", "en partenariat avec la Semaine du Goût", "en partenariat avec la biennale de la danse"]
+
+function randFrom(arr) {
+	return arr[Math.floor(Math.random()*arr.length)];
+}
+
+function generatePitch() {
+	elem.innerText = randFrom(whens) + " " + randFrom(verbs) + randFrom(whos) + " " + randFrom(goals) + " " + randFrom(wheres) + randFrom(mediums) + " " + randFrom(buzzwords) + " " + randFrom(partnerships) + " !!!";
+}
+
+generatePitch()
+</script>
+
+</html>
