@@ -299,3 +299,7 @@ h3, h4 {
 	margin: 8px auto;
 	border-top: solid 1px #CCCCCC;
 }
+
+#highlight_wrap {
+	display: none;
+}
