@@ -62,7 +62,7 @@ body{
 
 	background: #FFFFFF no-repeat;
 	background-position: top center;
-	background-image: url('Photo.jpg');
+	background-image: url('Profil2023.jpg');
 	background-size: auto 75%;
 
 }
@@ -90,9 +90,9 @@ body{
 .part.photo {
 	background: #FFFFFF no-repeat;
 	background-position: top center;
-	background-image: url('Photo.jpg');
+	background-image: url('Profil2023.jpg');
 	background-size: cover;
-	max-width: 250px;
+	max-width: 158px;
 }
 
 .bubbles{
@@ -164,6 +164,14 @@ body{
 
 .inh{
 	background-image: url('img/inh.png');
+}
+
+.yt{
+	background-image: url('img/yt.png');
+}
+
+.yth{
+	background-image: url('img/yth.png');
 }
 
 h1{
@@ -301,5 +309,5 @@ h3, h4 {
 }
 
 #highlight_wrap {
-	display: none;
+	/*display: none;*/
 }
